@@ -13,7 +13,7 @@ import com.Locktalk.Repository.messageRepo;
 import com.Locktalk.Service.SecrectMessanger;
 
 @RestController
-@CrossOrigin()
+@CrossOrigin(origins= "https://locktalk13.netlify.app/")
 public class messageController {
 
 	@Autowired
