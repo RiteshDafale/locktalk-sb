@@ -35,7 +35,6 @@ public class messageController {
 		Message.setMessage(msg);
 		Message.setPassword(password);
 		Message.setSecret(secret);		
-		System.out.println("Secret = "+secret);
 		msgrepo.save(Message);
 		
 		return secret;
