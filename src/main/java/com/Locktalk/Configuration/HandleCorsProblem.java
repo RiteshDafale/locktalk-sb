@@ -12,8 +12,8 @@ public class HandleCorsProblem {
 	public 	WebMvcConfigurer corsconfigurer() {
 		
 		return new WebMvcConfigurer() {
-			public void addcorsMappings(CorsRegistry ragistry) { 
-				
+			public void addCorsMappings(CorsRegistry ragistry) { 
+				 
 				ragistry.addMapping("/**")
 				.allowedOrigins("https://locktalk13.netlify.app/")
 				.allowedMethods("GET","POST","PUT","DELETE")
